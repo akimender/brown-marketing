@@ -9,6 +9,7 @@ import Dashboard from './Dashboard';
 import About from './About';
 import Team from './Team';
 import Projects from './Projects';
+import Contact from './Contact';
 
 const Home = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -35,6 +36,7 @@ const Home = () => {
             <About />
             <Team />
             <Projects />
+            <Contact />
         </>
     );
 };

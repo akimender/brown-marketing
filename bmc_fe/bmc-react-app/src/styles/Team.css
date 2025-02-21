@@ -1,9 +1,38 @@
+h4 {
+    margin: 10px 0px 5px 0px;
+}
+
+p {
+    margin: 5px 0px 30px 0px;
+}
+
 .team-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     padding-top: 40px;
-    height: 50vh;
+    height: 140vh;
     background-color: #f9f4ee;
+}
+
+.team-member-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr)); /* Create a grid with 3 columns */
+    gap: 10px; /* Add space between grid items */
+    width: 70%;
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center the entire row when there are fewer than 3 items */
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-member img {
+    width: 40%;
 }
