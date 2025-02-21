@@ -8,5 +8,7 @@
 }
 
 .about-container p {
-    width: 70%;
+    width: 60%;
+    text-align: justify;
+    font-size: 18px;
 }

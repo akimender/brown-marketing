@@ -1,0 +1,23 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Each direct child of home-container should take full width */
+.home-container > * {
+    width: 100%;
+    min-height: 100vh; /* If you want each section to be at least full viewport height */
+    position: relative; /* This ensures children are positioned relative to their section */
+    overflow: hidden; /* Prevents content from spilling out */
+}
+
+/* Add responsive padding/margins */
+@media screen and (max-width: 768px) {
+    .home-container > * {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}

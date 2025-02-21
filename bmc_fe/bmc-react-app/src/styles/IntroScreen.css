@@ -21,14 +21,27 @@
     top: 50%; /* Center the text vertically */
     left: 50%; /* Center the text horizontally */
     transform: translate(-50%, -50%); /* Adjust the position to be exactly centered */
+    width: 80%;
+    transition: opacity 0.3s ease;
+}
+
+.intro-screen-text h1 {
     color: white; /* Set the text color */
-    font-size: 5em; /* Set the font size */
+    font-size: 6em; /* Set the font size */
     font-weight: bold; /* Make the font bold */
     text-align: center; /* Center the text */
     font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
-    width: 80%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
-    transition: opacity 0.3s ease;
+    margin: 30px;
+}
+
+.intro-screen-text p {
+    color: white; /* Set the text color */
+    font-size: 30px; /* Set the font size */
+    text-align: center; /* Center the text */
+    font-family: 'Times', sans-serif; /* Apply Montserrat font */
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    font-style: italic;
 }
 
 .intro-screen-text.scrolled {

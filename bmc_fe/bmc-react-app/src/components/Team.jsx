@@ -27,7 +27,7 @@ const Team = () => {
                     <p>Client Relations</p>
                 </div>
                 <div className="team-member">
-                    <img src="maya_varma_wilson.png" alt="Maya Varma Wilson" />
+                    <img src="maya_varma_wilson.jpg" alt="Maya Varma Wilson" />
                     <h4>Maya Varma Wilson</h4>
                     <p>Events Coordinator</p>
                 </div>
@@ -42,9 +42,14 @@ const Team = () => {
                     <p>Marketing</p>
                 </div>
                 <div className="team-member">
-                    <img src="talia_blythe.png" alt="Talia Blythe" />
+                    <img src="talia_blythe.jpg" alt="Talia Blythe" />
                     <h4>Talia Blythe</h4>
                     <p>Professional Development</p>
+                </div>
+                <div className="team-member">
+                    <img src="andrew_kim.jpg" alt="Andrew Kim" />
+                    <h4>Andrew Kim</h4>
+                    <p>Website Manager</p>
                 </div>
             </div>
         </div>
