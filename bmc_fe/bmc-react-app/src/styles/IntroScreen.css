@@ -1,0 +1,14 @@
+.intro-screen-container {
+    width: 100%;
+    height: 80vh; /* Adjust the height as needed */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-screen-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
