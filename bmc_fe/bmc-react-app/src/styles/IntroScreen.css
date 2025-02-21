@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 .intro-screen-container {
     width: 100%;
-    height: 80vh; /* Adjust the height as needed */
+    height: 95vh; /* Adjust the height as needed */
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -11,4 +13,25 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
+}
+
+.intro-screen-text {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 50%; /* Center the text vertically */
+    left: 50%; /* Center the text horizontally */
+    transform: translate(-50%, -50%); /* Adjust the position to be exactly centered */
+    color: white; /* Set the text color */
+    font-size: 5em; /* Set the font size */
+    font-weight: bold; /* Make the font bold */
+    text-align: center; /* Center the text */
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+    width: 80%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    transition: opacity 0.3s ease;
+}
+
+.intro-screen-text.scrolled {
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }

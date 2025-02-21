@@ -1,6 +1,6 @@
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Aileron:wght@400&display=swap');
-@import url('https://use.typekit.net/xyz123.css'); /* Replace with the actual URL for Trade Gothic Condensed */
+@import "@fontsource/aileron";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400..700&display=swap'); /* Using Oswald */
 
 /* Set body font */
 body {
@@ -15,5 +15,9 @@ body {
 
 /* Set h1 and h2 fonts */
 h1, h2 {
-  font-family: 'Trade Gothic Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
 }
