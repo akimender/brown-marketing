@@ -15,7 +15,7 @@ a {
     align-items: center;
     justify-content: flex-start;
     padding-top: 40px;
-    height: 90vh;
+    height: 130vh;
 }
 
 .project-tasveer {
@@ -40,4 +40,39 @@ a {
 
 #project-tasveer:hover {
     transform: scale(1.03);
+    z-index: 0;
+}
+
+@media (max-width: 1300px) {
+    .project-tasveer {
+        height: 180vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-tasveer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        gap: 20px;
+        height: 180vh;
+    }
+
+    .project-text-container {
+        width: 100%;
+        order: 2;  /* Move text below image */
+        padding: 0 15px;  /* Add some padding on the sides */
+    }
+
+    #project-tasveer {
+        width: 90%;
+        max-width: none;
+        order: 1;  /* Move image above text */
+    }
+
+    h3 {
+        font-size: 24px;  /* Slightly smaller title for mobile */
+        text-align: center;
+    }
 }

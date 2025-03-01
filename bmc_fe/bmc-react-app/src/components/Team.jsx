@@ -46,11 +46,6 @@ const Team = () => {
                     <h4>Talia Blythe</h4>
                     <p>Professional Development</p>
                 </div>
-                <div className="team-member">
-                    <img src="andrew_kim.jpg" alt="Andrew Kim" />
-                    <h4>Andrew Kim</h4>
-                    <p>Website Manager</p>
-                </div>
             </div>
         </div>
     );

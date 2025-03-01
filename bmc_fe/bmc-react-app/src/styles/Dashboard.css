@@ -16,6 +16,7 @@ body, html {
     align-items: center;
     background-color: transparent;
     transition: background-color 0.2s ease, padding 0.3s ease;
+    z-index: 100;
 }
 
 .dashboard-header.scrolled {
@@ -52,4 +53,31 @@ body, html {
     margin: 20px 0;
     background-color: #f4f4f4;
     border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .dashboard-header {
+        padding: 10px 15px;
+        justify-content: left;
+    }
+
+    .dashboard-nav button{
+        font-size: 20px;
+        margin: 0 6px;
+    }
+
+    .dashboard-nav {
+        margin: 10px 20px;
+    }
+
+    .dashboard-header.scrolled {
+        background-color: transparent;  /* Override the dark background on mobile */
+    }
+
+    .dashboard-header.scrolled .dashboard-nav button,
+    .dashboard-header.scrolled img {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+    }
 }
