@@ -1,1 +1,1 @@
-web: cd bmc-react-app && npm run build && node start
+web: npm run build && node start
