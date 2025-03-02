@@ -1,1 +1,1 @@
-web: npm run build && node server.js
+web: npm install --force && npm run build && node server.js
