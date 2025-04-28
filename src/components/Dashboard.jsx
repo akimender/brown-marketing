@@ -4,7 +4,6 @@ import '../styles/Dashboard.css';
 const Dashboard = ({ scrolled }) => {
     return (
         <div className={`dashboard-header ${scrolled ? 'scrolled' : ''}`}>
-            <img src="" alt="bmc-logo" />
             <nav className={`dashboard-nav ${scrolled ? 'scrolled' : ''}`}>
                 <button>About</button>
                 <button>Team</button>

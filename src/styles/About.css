@@ -4,13 +4,32 @@
     align-items: center;
     justify-content: flex-start;
     padding-top: 40px;
-    height: 70vh;
+    height: 80vh;
 }
 
-.about-container p {
-    width: 60%;
+.text-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-block {
+    width: 50%;
+    margin: 50px;
+}
+
+.text-block p {
     text-align: justify;
     font-size: 18px;
+}
+
+
+.bmc-logo {
+    width: 320px;
+    margin-left: 0px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 1300px) {
