@@ -3,7 +3,7 @@ import '../styles/Contact.css'
 
 const Contact = () => {
     return (
-        <div className="contact-container">
+        <div className="contact-container" id="Contact">
             <h1>Contact</h1>
             <p>
                 Email: brownmarketingclub@brown.edu

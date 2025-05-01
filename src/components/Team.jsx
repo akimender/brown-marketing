@@ -3,7 +3,7 @@ import '../styles/Team.css'
 
 const Team = () => {
     return (
-        <div className="team-container">
+        <div className="team-container" id="Team">
             <h1>Our Team</h1>
             <div className="team-member-container">
                 <div className="team-member">
