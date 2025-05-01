@@ -6,8 +6,15 @@ const Contact = () => {
         <div className="contact-container" id="Contact">
             <h1>Contact</h1>
             <p>
-                Email: brownmarketingclub@brown.edu
+                brownmarketingclub@brown.edu
             </p>
+            <p>
+                @brownmarketingclub
+            </p>
+
+            <div className="bottom-credits">
+                <span>Check out the creator of our logo at http://rachelshimsportfolio.com !!</span>
+            </div>
         </div>
     );
 };
